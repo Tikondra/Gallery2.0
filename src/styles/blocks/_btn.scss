@@ -1,0 +1,23 @@
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.2s ease;
+
+  &:hover {
+    background-color: #dddddd;
+  }
+
+  &:focus {
+    box-shadow: 0 0 5px 0 black;
+  }
+
+  &:active {
+    background-color: darken(#ccc, 10%);
+    box-shadow: none;
+  }
+}

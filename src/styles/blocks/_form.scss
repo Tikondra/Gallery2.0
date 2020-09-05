@@ -1,0 +1,16 @@
+.form__description {
+  margin: 0;
+}
+
+.form__btn {
+  margin: 10px 0;
+}
+
+.form__input {
+  margin: 10px 0;
+  padding: 10px;
+
+  &--file {
+    display: none;
+  }
+}

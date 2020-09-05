@@ -1,0 +1,37 @@
+.gallery {
+  max-width: 860px;
+  margin: auto;
+}
+
+.gallery__drop-area {
+  border: 2px dashed #ccc;
+  border-radius: 20px;
+  margin: 30px 15px;
+  padding: 20px;
+
+  &--highlight {
+    border-color: #1565c0;
+  }
+}
+
+.gallery__list {
+  @include list;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.gallery__img {
+  margin: 5px;
+  background-color: #fff;
+  background-image: url("../img/placeholder.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@media (max-width: 390px) {
+  .gallery__img {
+    flex-grow: 1 !important;
+  }
+}
