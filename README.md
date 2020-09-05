@@ -1,4 +1,4 @@
-# **Gallery2.0**  [![Build Status](https://travis-ci.com/Tikondra/gallery.svg?branch=master)](https://travis-ci.com/Tikondra/gallery)
+# **Gallery2.0**  [![Build Status](https://travis-ci.com/Tikondra/Gallery2.0.svg?branch=master)](https://travis-ci.com/Tikondra/Gallery2.0)
 
 npm i - загрузка пакетов
 
